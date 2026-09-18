@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 from dotenv import load_dotenv
 load_dotenv()
+#AIzaSyATld8JfTIj0I_TGuKMF1ydcUdozTKwchs
 API_KEY = os.getenv("YOUTUBE_API_KEY")
 VIDEO_ID = "XIgtXWxirwI"
 url = "https://www.googleapis.com/youtube/v3/commentThreads"
